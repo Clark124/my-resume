@@ -51,7 +51,7 @@ export default {
 .v_header {
     width: 100%;
     height: auto;
-    background: url('bgheader.png') no-repeat ;
+    background: url('./bgheader.png') no-repeat ;
     background-size: cover;
     color: #fff;
 }
