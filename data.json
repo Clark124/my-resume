@@ -1,0 +1,64 @@
+{
+    "baseInfo": {
+        "name": "I,m Clark",
+        "job": "Web Engineer",
+        "edu": "武汉轻工大学",
+        "degree":"硕士",
+        "email": "53799906@qq.com",
+        "phone": "15871411734",
+        "city": "武汉",
+        "website": "https://github.com/Clark124"
+    },
+    "skill":[
+        {
+            "title":"静态开发",
+            "info":["HTML5","CSS3","PhotoShop"],
+            
+            "desc":["1. 熟悉 W3C 规范，写出规范化、语义化的代码，熟悉CSS3，熟悉盒模型、浮动，定位，BFC 等概念。了解响应式和 flex 布局。能使用 HTML5、CSS5做出像素级还原的静态页面。","2. 了解 PhotoShop的使用，熟料掌握切图技能。"]
+        },
+        {
+            "title":"动态交互",
+            "info":["JavaScript","JQuery","CommonJS","Bootstrap","Es6"],
+            "desc":["1. 熟悉原生 JS 和 jQuery,利用 JS 和 jQuery 实现常见效果，能够不依赖库手写 tab 切换、轮播、瀑布流布局、懒加载等效果。掌握事件模型、DOM 操作、闭包、原型链、面向对象、封装等知识。","2. 掌握 AJAX、JSONP API 等，能与后端程序员配合完成动态页面开发。","3. 了解 CommonJS、AMD 的模块化方案开发。","4. 掌握Bootstrap的用法，能快速开发兼容PC、移动端的网页。","5. 了解es6，能使用常见语法及规范编写代码。"]
+        },
+        {
+            "title":"框架&工具",
+            "info":["vue.js","react.js","Git"],
+            "desc":["1. 熟悉MVVM框架，能用vue.js开发SPA单页应用，配合element.ui,mint.ui等UI库能快速开发适配PC端、移动端的页面。","2. 了解react.js的基本用法，并有一定的使用经验。","3. 熟练使用 VSCode、Webstorm、Git、Linux 命令行等开发工具。"]
+        },
+        {
+            "title":"后端语言",
+            "info":["node.js","Express","MongoDB","LeanCloud","HTTP"],
+            "desc":["1. 熟悉原生node.js的特性，能使用Express、MongoDB搭建服务器及数据库。","2. 了解LeanCloud第三方数据库的使用方法。","3. 了解HTTP协议。"]
+        }
+    ],
+    "project":{
+        "vue":[
+                {
+                    "title":"在线简历编辑器",
+                    "desc":["1. 一个可以用来写简历的工具","2. 用户可以添加简历内容，包括个人信息、工作经历、学习经历、获奖情况、项目经理和联系方式","3. 用户可以进行登录、注册，保存所写简历内容，方便以后查看或者修改"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","vuex状态管理","sass模块化css","es6语法","后端：","leancloud与后台交互，数据存储"],
+                    "src":"https://clark124.github.io/resume-editor/dist"
+                    
+                },
+                {
+                    "title":"外卖APP",
+                    "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass模块化css","es6语法","后端：","leancloud模拟json后端数据"],
+                    "src":"https://clark124.github.io/eleme/dist",
+                    "img":"./static/img/eleme.png",
+                    "imgTitle":"扫描二维码开始体验"
+                },
+                {
+                    "title":"酷炫的简历",
+                    "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass模块化css","es6语法","后端：","leancloud模拟json后端数据"],
+                    "src":"https://clark124.github.io/animating-resume/dist",
+                    "img":"./static/img/eleme.png",
+                    "imgTitle":"扫描二维码开始体验"
+                }
+            ]
+    }
+        
+    
+}
