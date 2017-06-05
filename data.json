@@ -44,20 +44,38 @@
                 {
                     "title":"外卖APP",
                     "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
-                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass模块化css","es6语法","后端：","leancloud模拟json后端数据"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass预编译css","es6语法","后端：","leancloud模拟json后端数据"],
                     "src":"https://clark124.github.io/eleme/dist",
                     "img":"./static/img/eleme.png",
                     "imgTitle":"扫描二维码开始体验"
                 },
                 {
                     "title":"酷炫的简历",
-                    "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
-                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass模块化css","es6语法","后端：","leancloud模拟json后端数据"],
+                    "desc":["1. 一个会动的简历模板","2. 在屏幕上写样式同时对渲染效果进行更新","3. 屏幕左边css控制样式，右边为简单的简历模板","4. 动态渲染画面效果"],
+                    "tech":["vue-cli+vue-router初始化项目","sass预编译css","prismjs开源工具让代码高亮","marked开源工具将markdown语法内容转化成HTML","es6语法"],
                     "src":"https://clark124.github.io/animating-resume/dist",
+                    "img":"",
+                    "imgTitle":""
+                }
+            ],
+
+        "node":[
+                {
+                    "title":"node在线备忘录",
+                    "desc":["1. 一个可以用来写简历的工具","2. 用户可以添加简历内容，包括个人信息、工作经历、学习经历、获奖情况、项目经理和联系方式","3. 用户可以进行登录、注册，保存所写简历内容，方便以后查看或者修改"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","vuex状态管理","sass模块化css","es6语法","后端：","leancloud与后台交互，数据存储"],
+                    "src":"https://clark124.github.io/resume-editor/dist"
+                    
+                },
+                {
+                    "title":"在线便利贴",
+                    "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
+                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass预编译css","es6语法","后端：","leancloud模拟json后端数据"],
+                    "src":"https://clark124.github.io/eleme/dist",
                     "img":"./static/img/eleme.png",
                     "imgTitle":"扫描二维码开始体验"
                 }
-            ]
+            ]    
     }
         
     

@@ -7,7 +7,7 @@
           <div class="desc">
             <p v-for="desc in item.desc"> {{desc}}</p>
             <div class="img">
-              <span>{{item.imgTitle}}</span>
+              <p>{{item.imgTitle}}</p>
               <img :src="item.img" alt="">
             </div>
           </div>
@@ -60,7 +60,7 @@ export default {
 
 .vue-wrapper {
   .item-wrapper {
-    padding: 0 40px;
+    padding: 0 20px;
     .item {
       position: relative;
       height: 400px;
@@ -126,7 +126,7 @@ export default {
         color: #666;
         .img{
           text-align: center;
-          span{
+          p{
             color: #b75a5a;
             font-weight: bold;
           }

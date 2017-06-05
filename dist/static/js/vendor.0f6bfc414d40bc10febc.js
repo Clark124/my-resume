@@ -9776,7 +9776,7 @@ Vue$3.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue$3);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(74)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(75)))
 
 /***/ }),
 
@@ -16706,7 +16706,7 @@ else if (typeof define === 'function' && define.amd) {
 
 /***/ }),
 
-/***/ 39:
+/***/ 40:
 /***/ (function(module, exports) {
 
 /* -----------------------------------------------
@@ -18253,7 +18253,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
 
 /***/ }),
 
-/***/ 42:
+/***/ 43:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -18262,8 +18262,8 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
  */
 
 var Swiper = __webpack_require__(3)
-var SwiperComponent = __webpack_require__(44)
-var SlideComponent = __webpack_require__(43)
+var SwiperComponent = __webpack_require__(45)
+var SlideComponent = __webpack_require__(44)
 if (typeof window !== 'undefined') {
 	window.Swiper = Swiper
 }
@@ -18283,7 +18283,7 @@ module.exports = swiper
 
 /***/ }),
 
-/***/ 72:
+/***/ 73:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20755,7 +20755,7 @@ if (inBrowser && window.Vue) {
 
 /***/ }),
 
-/***/ 73:
+/***/ 74:
 /***/ (function(module, exports) {
 
 /**
@@ -20789,7 +20789,7 @@ module.exports = function listToStyles (parentId, list) {
 
 /***/ }),
 
-/***/ 74:
+/***/ 75:
 /***/ (function(module, exports) {
 
 var g;
@@ -20817,7 +20817,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 75:
+/***/ 76:
 /***/ (function(module, exports) {
 
 /*
@@ -20900,7 +20900,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 76:
+/***/ 77:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -20919,7 +20919,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(73)
+var listToStyles = __webpack_require__(74)
 
 /*
 type StyleObject = {
@@ -21126,7 +21126,7 @@ function applyToTag (styleElement, obj) {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__ = __webpack_require__(45);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__ = __webpack_require__(46);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__);
 /* eslint-disable */
 
@@ -21146,4 +21146,4 @@ const VueParticles = {
 /***/ })
 
 });
-//# sourceMappingURL=vendor.3107d669dfb05a7ab50d.js.map
+//# sourceMappingURL=vendor.0f6bfc414d40bc10febc.js.map

@@ -16,7 +16,7 @@
           <router-link to="/project/bootstrap">Bootstrap</router-link>
         </li>
       </ul>
-      <router-view :vuePro="project.vue"></router-view>  
+      <router-view :vuePro="project.vue" :nodePro="project.node"></router-view>  
     </div>
   </div>
 </template>
@@ -61,9 +61,13 @@ export default {
     display: flex;
     li {
       flex: 1;
+      text-align: center;
       font-size: 16px;
       a {
         color: #fff;
+        &.active{
+          color: #5cefac;
+        }
       }
     }
   }
