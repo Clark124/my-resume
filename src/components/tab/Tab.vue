@@ -6,9 +6,9 @@
         <div class="tab-item">
             <router-link to="/skill">我的技能</router-link>
         </div>
-        <div class="tab-item">
+        <!--<div class="tab-item">
             <router-link to="/experience">学历与工作</router-link>
-        </div>
+        </div>-->
         <div class="tab-item">
             <router-link to="/about">自我简述</router-link>
         </div>

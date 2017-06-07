@@ -16,7 +16,9 @@
           <router-link to="/project/bootstrap">Bootstrap</router-link>
         </li>
       </ul>
-      <router-view :vuePro="project.vue" :nodePro="project.node"></router-view>  
+      <transition enter-active-class="animated fadeIn" >
+      <router-view :vuePro="project.vue" :nodePro="project.node" :reactPro="project.react" :bootstrapPro="project.bootstrap"></router-view>
+      </transition>  
     </div>
   </div>
 </template>
@@ -40,6 +42,8 @@ export default {
 
 <style scoped lang="scss">
 .v_project {
+  background: url('./bg-project.jpg') no-repeat center top;
+  background-size: cover;
   background-color: #fff;
 }
 

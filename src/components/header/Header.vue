@@ -59,8 +59,7 @@ export default {
 .v_container {
     width: 100%;
     height: auto;
-    // background: url('./v_dott.png') repeat;
-    // opacity:0.7;
+
    
     position: relative;
 }

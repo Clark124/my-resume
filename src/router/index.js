@@ -18,6 +18,7 @@ export default new Router({
     {
       path: '/project',
       name: 'Project',
+      redirect: '/project/vue',
       component: Project,
       children:[ 
 	            {path:'vue', component:VuePro},

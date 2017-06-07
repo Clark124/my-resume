@@ -57,26 +57,57 @@
                     "img":"",
                     "imgTitle":""
                 }
-            ],
-
+            ], 
         "node":[
                 {
-                    "title":"node在线备忘录",
-                    "desc":["1. 一个可以用来写简历的工具","2. 用户可以添加简历内容，包括个人信息、工作经历、学习经历、获奖情况、项目经理和联系方式","3. 用户可以进行登录、注册，保存所写简历内容，方便以后查看或者修改"],
-                    "tech":["前端：","vue-cli+vue-router初始化项目","vuex状态管理","sass模块化css","es6语法","后端：","leancloud与后台交互，数据存储"],
-                    "src":"https://clark124.github.io/resume-editor/dist"
+                    "title":"在线便利贴",
+                    "desc":["1. 可以发布的自己的便利贴，同时可以浏览别的人便利贴","2. 采用第三方平台github登录","3. 可以随时修改、删除自己便利贴，但无权限操作别人的"],
+                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0123.leanapp.cn"
                     
                 },
                 {
-                    "title":"在线便利贴",
-                    "desc":["1. 在移动端浏览的外卖APP","2.提取外卖App最核心的商家模块,包括商品、评论、商家介绍等各模块","3. 具有原生APP的使用体验"],
-                    "tech":["前端：","vue-cli+vue-router初始化项目","animate.css处理动画交互","sass预编译css","es6语法","后端：","leancloud模拟json后端数据"],
-                    "src":"https://clark124.github.io/eleme/dist",
-                    "img":"./static/img/eleme.png",
-                    "imgTitle":"扫描二维码开始体验"
+                    "title":"班级说说",
+                    "desc":["1. 可以编辑自己的说说，浏览所有人的说说","2. 查看所有成员列表","3. 可以上传个人头像，并可进行剪裁"],
+                    "tech":["前端：","bootstrap搭建页面内容","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0124.leanapp.cn",
+                    "img":"",
+                    "imgTitle":""
                 }
-            ]    
+            ],
+        "react":[
+                {
+                    "title":"在线便利贴",
+                    "desc":["1. 可以发布的自己的便利贴，同时可以浏览别的人便利贴","2. 采用第三方平台github登录","3. 可以随时修改、删除自己便利贴，但无权限操作别人的"],
+                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0123.leanapp.cn"
+                    
+                },
+                {
+                    "title":"班级说说",
+                    "desc":["1. 可以编辑自己的说说，浏览所有人的说说","2. 查看所有成员列表","3. 可以上传个人头像，并可进行剪裁"],
+                    "tech":["前端：","bootstrap搭建页面内容","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0124.leanapp.cn",
+                    "img":"",
+                    "imgTitle":""
+                }
+            ],
+        "bootstrap":[
+                {
+                    "title":"在线便利贴",
+                    "desc":["1. 可以发布的自己的便利贴，同时可以浏览别的人便利贴","2. 采用第三方平台github登录","3. 可以随时修改、删除自己便利贴，但无权限操作别人的"],
+                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0123.leanapp.cn"
+                    
+                },
+                {
+                    "title":"班级说说",
+                    "desc":["1. 可以编辑自己的说说，浏览所有人的说说","2. 查看所有成员列表","3. 可以上传个人头像，并可进行剪裁"],
+                    "tech":["前端：","bootstrap搭建页面内容","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "src":"https://clark0124.leanapp.cn",
+                    "img":"",
+                    "imgTitle":""
+                }
+            ]            
     }
-        
-    
 }

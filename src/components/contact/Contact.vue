@@ -40,7 +40,7 @@ export default {
   width: 100%;
   margin: 0 auto;
   background-color: #333333;
-  background: url('./bg1.jpg') no-repeat center top;
+  background: url('./bg-contact.jpg') no-repeat center top;
   background-size: cover;
   padding: 50px 0;
   @media only screen and (max-width: 560px) {
