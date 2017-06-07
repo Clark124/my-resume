@@ -1,18 +1,18 @@
 <template>
   <div id="app" ref="app">
-    <v-Header :baseInfo="baseInfo" v-show="!hidden">
-      <vue-particles v-show="!hidden" color="#ffffff" :particleOpacity="0.7" linesColor="#ffffff" :particlesNumber="80" shapeType="circle" :particleSize="5" :linesWidth="2" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push">
+    <v-Header :baseInfo="baseInfo" >
+      <vue-particles  color="#ffffff" :particleOpacity="0.7" linesColor="#ffffff" :particlesNumber="80" shapeType="circle" :particleSize="5" :linesWidth="2" :lineLinked="true" :lineOpacity="0.4" :linesDistance="150" :moveSpeed="3" :hoverEffect="true" hoverMode="grab" :clickEffect="true" clickMode="push">
       </vue-particles>
     </v-Header>
-    <Tab v-show="!hidden"></Tab>
+    <Tab ></Tab>
     <transition enter-active-class="animated fadeInLeft">  
-      <router-view :skill="skill" :project="project" v-show="!hidden"></router-view>
+      <router-view :skill="skill" :project="project" ></router-view>
     </transition>
-    <footer v-show="!hidden">
+    <footer >
       <p id="footer">{{desc}}</p>
     </footer>
-    <RingLoader :loading="loading" :color="color" :size="size" v-if="hidden" :style="{marginTop: loadTop + 'px'}"></RingLoader>
-    <p class="loadText" v-if="hidden">loading</p>
+    <!--<RingLoader :loading="loading" :color="color" :size="size" v-if="hidden" :style="{marginTop: loadTop + 'px'}"></RingLoader>
+    <p class="loadText" v-if="hidden">loading</p>-->
   </div>
 </template>
 
@@ -44,11 +44,11 @@ export default {
 
   },
   mounted() {
-    let _this = this
-    setTimeout(function () {
-      _this.hidden = false
-    }, 3000)
-    this.loadTop = window.screen.height * 0.28
+    // let _this = this
+    // setTimeout(function () {
+    //   _this.hidden = false
+    // }, 3000)
+    // this.loadTop = window.screen.height * 0.28
   },
   components: {
     'v-Header': Header,
