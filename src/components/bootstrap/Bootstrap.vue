@@ -18,9 +18,9 @@
             </div>
           </transition>
           <ul class="btn-wrapper">
-            <li>
+            <!--<li>
               <a class="btn btn-1" @click="showTech(index)">技术栈</a>
-            </li>
+            </li>-->
             <li>
               <a class="btn btn-2" :href="item.src" target="_blank">LiveDome</a>
             </li>
@@ -132,6 +132,11 @@ export default {
           p {
             color: #b75a5a;
             font-weight: bold;
+          }
+          img{
+            display: block;
+            width: 100%;
+            height: 100%;
           }
         }
       }

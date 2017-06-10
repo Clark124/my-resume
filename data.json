@@ -62,7 +62,7 @@
                 {
                     "title":"在线便利贴",
                     "desc":["1. 可以发布的自己的便利贴，同时可以浏览别的人便利贴","2. 采用第三方平台github登录","3. 可以随时修改、删除自己便利贴，但无权限操作别人的"],
-                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
+                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","passport-github第三方登录","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
                     "src":"https://clark0123.leanapp.cn"
                     
                 },
@@ -94,18 +94,19 @@
             ],
         "bootstrap":[
                 {
-                    "title":"在线便利贴",
-                    "desc":["1. 可以发布的自己的便利贴，同时可以浏览别的人便利贴","2. 采用第三方平台github登录","3. 可以随时修改、删除自己便利贴，但无权限操作别人的"],
-                    "tech":["前端：","JS组件封装的写法","less预编译css","webpack打包js、css","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
-                    "src":"https://clark0123.leanapp.cn"
+                    "title":"某企业官网",
+                    "desc":["","",""],
+                    "tech":[""],
+                    "src":"https://clark124.github.io/bootstrap1/index.html",
+                    "img":"./static/img/guanwang.png"
                     
                 },
                 {
-                    "title":"班级说说",
-                    "desc":["1. 可以编辑自己的说说，浏览所有人的说说","2. 查看所有成员列表","3. 可以上传个人头像，并可进行剪裁"],
-                    "tech":["前端：","bootstrap搭建页面内容","后端：","express初始化后端服务器","leancloud与后台交互，数据存储","LeanEngine托管服务端"],
-                    "src":"https://clark0124.leanapp.cn",
-                    "img":"",
+                    "title":"后台管理界面",
+                    "desc":["","",""],
+                    "tech":[""],
+                    "src":"https://clark124.github.io/bootstrap-backstage/index.html",
+                    "img":"./static/img/houtai.png",
                     "imgTitle":""
                 }
             ]            
