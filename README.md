@@ -1,21 +1,21 @@
-# resume
+# 我的在线简历
 
-> A Vue.js project
+## 技术栈
+- vue-cli+vue-router
+- sass模块化css
+- animate.css与动画交互
+- es6语法
+- webpack打包
 
-## Build Setup
 
-``` bash
-# install dependencies
-npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+[预览](https://clark124.github.io/my-resume/dist/#/project/vue)
 
-# build for production with minification
-npm run build
+## 喜欢本简历的模板的同学也可以clone,打造自己的简历
 
-# build for production and view the bundle analyzer report
-npm run build --report
 ```
-
-For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+git clone git@github.com:Clark124/my-resume.git
+cd my-resume
+npm install
+npm run dev
+```
