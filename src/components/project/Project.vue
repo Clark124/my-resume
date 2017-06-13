@@ -16,7 +16,7 @@
           <router-link to="/project/bootstrap">Bootstrap</router-link>
         </li>
       </ul>
-      <transition enter-active-class="animated fadeIn" >
+      <transition enter-active-class="animated zoomIn" >
       <router-view :vuePro="project.vue" :nodePro="project.node" :reactPro="project.react" :bootstrapPro="project.bootstrap"></router-view>
       </transition>  
     </div>

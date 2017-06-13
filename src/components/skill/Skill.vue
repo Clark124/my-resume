@@ -9,7 +9,7 @@
             <span>{{info}}</span>
           </p>
           <button class="btn" @click="showDesc(index)">描述</button>
-          <transition enter-active-class="animated fadeInUp" leave-active-class="animated fadeOutDown">
+          <transition enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutRight">
             <div class="desc" v-show="show===index" @click="hideDesc(index)">
               <p v-for="desc in item.desc"> {{desc}}</p>
             </div>

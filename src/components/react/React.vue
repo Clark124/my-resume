@@ -12,7 +12,7 @@
               <img :src="item.img" alt="">
             </div>
           </div>
-          <transition enter-active-class="animated fadeInUp" leave-active-class="animated fadeOutDown">
+          <transition enter-active-class="animated fadeInLeft" leave-active-class="animated fadeOutRight">
             <div class="tech" v-show="tech === index" @click="hideTech(index)">
               <p v-for="tech in item.tech"> {{tech}}</p>
             </div>
