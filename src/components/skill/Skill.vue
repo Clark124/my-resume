@@ -104,6 +104,11 @@ export default {
         bottom: 5px;
         padding: 3px 10px;
         border-radius: 3px;
+        border: 0;
+        background-color: #4ad8ef;
+        color: #fff;
+        font-size: 16px;
+        box-shadow: 1px 1px 3px #333;
       }
       .desc {
         position: absolute;
