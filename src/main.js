@@ -5,6 +5,7 @@ import App from './App'
 import router from './router'
 import VueParticles from 'vue-particles'
 import 'animate.css'
+import './assets/css/iconfont.css'
 Vue.use(VueParticles)
 Vue.config.productionTip = false
 

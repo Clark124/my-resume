@@ -13,22 +13,27 @@
                     <h6 class="text_hidden">{{baseInfo.job}}</h6>
                     <ul>
                         <li class="text_hidden">
+                            <i class="iconfont icon-xuexiao"></i>
                             <b>毕业学校</b>
                             <span>{{baseInfo.edu}}</span>
                         </li>
                         <li class="text_hidden">
+                            <i class="iconfont icon-edu"></i>
                             <b>学历</b>
                             <span>{{baseInfo.degree}}</span>
                         </li>
                         <li class="text_hidden">
+                            <i class="iconfont icon-phone"></i>
                             <b>手机号码</b>
                             <span>{{baseInfo.phone}}</span>
                         </li>
                         <li class="text_hidden">
+                            <i class="iconfont icon-chengshi"></i>
                             <b>目标城市</b>
                             <span>{{baseInfo.city}}</span>
                         </li>
                         <li class="text_hidden">
+                            <i class="iconfont icon-email"></i>
                             <b>邮箱</b>
                             <span>{{baseInfo.email}}</span>
                         </li>

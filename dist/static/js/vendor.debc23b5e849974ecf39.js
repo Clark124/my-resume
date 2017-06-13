@@ -9776,11 +9776,11 @@ Vue$3.compile = compileToFunctions;
 
 /* harmony default export */ __webpack_exports__["a"] = (Vue$3);
 
-/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(81)))
+/* WEBPACK VAR INJECTION */}.call(__webpack_exports__, __webpack_require__(82)))
 
 /***/ }),
 
-/***/ 28:
+/***/ 29:
 /***/ (function(module, exports, __webpack_require__) {
 
 (function webpackUniversalModuleDefinition(root, factory) {
@@ -16706,7 +16706,7 @@ else if (typeof define === 'function' && define.amd) {
 
 /***/ }),
 
-/***/ 44:
+/***/ 45:
 /***/ (function(module, exports) {
 
 /* -----------------------------------------------
@@ -18253,7 +18253,7 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
 
 /***/ }),
 
-/***/ 47:
+/***/ 48:
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -18262,8 +18262,8 @@ window.particlesJS.load = function(tag_id, path_config_json, callback){
  */
 
 var Swiper = __webpack_require__(3)
-var SwiperComponent = __webpack_require__(49)
-var SlideComponent = __webpack_require__(48)
+var SwiperComponent = __webpack_require__(50)
+var SlideComponent = __webpack_require__(49)
 if (typeof window !== 'undefined') {
 	window.Swiper = Swiper
 }
@@ -18283,7 +18283,7 @@ module.exports = swiper
 
 /***/ }),
 
-/***/ 79:
+/***/ 80:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -20755,30 +20755,7 @@ if (inBrowser && window.Vue) {
 
 /***/ }),
 
-/***/ 8:
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__ = __webpack_require__(50);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__);
-/* eslint-disable */
-
-
-const VueParticles = {
-
-    install (Vue, options) {
-        Vue.component('vue-particles', __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue___default.a)
-    }
-
-}
-
-/* harmony default export */ __webpack_exports__["a"] = (VueParticles);
-/* eslint-disable */
-
-
-/***/ }),
-
-/***/ 80:
+/***/ 81:
 /***/ (function(module, exports) {
 
 /**
@@ -20812,7 +20789,7 @@ module.exports = function listToStyles (parentId, list) {
 
 /***/ }),
 
-/***/ 81:
+/***/ 82:
 /***/ (function(module, exports) {
 
 var g;
@@ -20840,7 +20817,7 @@ module.exports = g;
 
 /***/ }),
 
-/***/ 82:
+/***/ 83:
 /***/ (function(module, exports) {
 
 /*
@@ -20923,7 +20900,7 @@ function toComment(sourceMap) {
 
 /***/ }),
 
-/***/ 83:
+/***/ 84:
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -20942,7 +20919,7 @@ if (typeof DEBUG !== 'undefined' && DEBUG) {
   ) }
 }
 
-var listToStyles = __webpack_require__(80)
+var listToStyles = __webpack_require__(81)
 
 /*
 type StyleObject = {
@@ -21143,7 +21120,30 @@ function applyToTag (styleElement, obj) {
 }
 
 
+/***/ }),
+
+/***/ 9:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__ = __webpack_require__(51);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__vue_particles_vue__);
+/* eslint-disable */
+
+
+const VueParticles = {
+
+    install (Vue, options) {
+        Vue.component('vue-particles', __WEBPACK_IMPORTED_MODULE_0__vue_particles_vue___default.a)
+    }
+
+}
+
+/* harmony default export */ __webpack_exports__["a"] = (VueParticles);
+/* eslint-disable */
+
+
 /***/ })
 
 });
-//# sourceMappingURL=vendor.6fdc4e346841e5b7b807.js.map
+//# sourceMappingURL=vendor.debc23b5e849974ecf39.js.map

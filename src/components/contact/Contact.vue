@@ -4,12 +4,10 @@
       <v-Title :title="title" :tip="tip"></v-Title>
       <div class="footer_content">
         <img src="./weixin.png">
-        <dl>
-          <dt>Contact By Email</dt>
-          <dd>
-            <a href="#">53799906@qq.com</a>
-          </dd>
-        </dl>
+        <div class="font">
+          <a href="https://github.com/Clark124" target="_blank"><i class="iconfont icon-github"></i></a>
+          <a href="http://www.jianshu.com/u/ed4670590fc8" target="_blank"><i class="iconfont icon-shu"></i></a>
+        </div>
       </div>
     </div>
   </div>
@@ -68,39 +66,31 @@ export default {
   width: 40%;
   margin: 0 auto;
 }
-
-.footer_content dl {
-  border-top: 1px solid rgb(214, 212, 212);
-  position: relative;
-  padding-bottom: 5px;
+.footer_content .font{
   margin-top: 10px;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+  .icon-github{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 35px;
+    color: #333333;
+    transition: all .8s;
+    &:hover{
+      color: red;
+    }
+  }
+  .icon-shu{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 38px;
+    margin-left: 10px;
+    color: #333333;
+    transition: all .8s;
+    &:hover{
+      color: green;
+    }
+  }
 }
 
-.footer_content dl:after {
-  position: absolute;
-  top: 8%;
-  left: 50%;
-  transform: translate(-50%);
-  content: "";
-  width: 20px;
-  height: 20px;
-  background: url('./email.png') no-repeat;
-  background-size: 100% auto;
-}
-
-.footer_content dt {
-  font-size: 14px;
-  margin: 25px 0 14px;
-}
-
-.footer_content dd {
-  font-size: 14px;
-  color: #999;
-  margin-top: 14px;
-}
-
-.footer_content dd a {
-  font-size: 14px;
-  color: #00a78e;
-}
 </style>
