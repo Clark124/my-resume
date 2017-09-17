@@ -18,7 +18,7 @@ export default new Router({
     {
       path: '/project',
       name: 'Project',
-      redirect: '/project/vue',
+      redirect: '/project/react',
       component: Project,
       children:[ 
 	            {path:'vue', component:VuePro},
@@ -30,7 +30,7 @@ export default new Router({
     {
       path: '/skill',
       name: 'Skill',
-      component: Skill
+      component: Skill 
     },
     {
       path: '/experience',
@@ -49,7 +49,7 @@ export default new Router({
     },
     {
       path: '/',
-      redirect: '/project/vue'
+      redirect: '/project/react'
     },
     // {
     //   path: '*',

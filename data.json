@@ -23,8 +23,8 @@
         },
         {
             "title":"框架&工具",
-            "info":["vue.js","react.js","Git"],
-            "desc":["1. 熟悉MVVM框架，能用vue.js开发SPA单页应用，配合element.ui,mint.ui等UI库能快速开发适配PC端、移动端的页面。","2. 了解react.js的基本用法，并有一定的使用经验。","3. 熟练使用 VSCode、Webstorm、Git、Linux 命令行等开发工具。"]
+            "info":["react","react native","redux","vue","Git"],
+            "desc":["1. 熟悉react、react-native、redux，具有一定的网页、跨平台移动端App开发经验。","2. 熟悉MVVM框架，能用vue.js开发SPA单页应用，配合element.ui,mint.ui等UI库能快速开发适配PC端、移动端的页面。","3. 熟练使用 VSCode、Webstorm、Git、Linux 命令行等开发工具。"]
         },
         {
             "title":"后端语言",
@@ -77,18 +77,28 @@
             ],
         "react":[
                 {
-                    "title":"单页在线Todo应用",
-                    "desc":["1. 一个轻量级单页在线待办事项管理应用","2. 支持注册，支持增删改查","3. 采用最新技术生态，ES6/ES7语法，追求最佳实践"],
-                    "tech":["前端：","React","React-bootstrap","webpack","后端：","","leancloud与后台交互，数据存储"],
-                    "src":"https://clark124.github.io/react-1/build/index.html"
+                    "title":"小书博客",
+                    "desc":["小书是一个创作社区，可以随意的创作各类文章，记录生活的点点滴滴，与其它作者交流。该应用具有如下功能：",
+                        "1. 可编写、保存各类文章，支持markdown语法。",
+                        "2. 可查阅其他作者的文章，可以进行评论交流，点赞，收藏。",
+                        "3. 可关注喜欢的作者，查看该作者做发布的文章、关注的作者及喜欢的文章。"],
+                    "tech":["前端：","react+redux+react-router4","中间件：redux-thunk",
+                        "后端：","Express+Mongoose",
+                        "性能优化","1. 首屏文章列表使用懒加载","2. CND缓存","3. 动态分片加载脚本"],
+                    "src":"http://www.clark123.site"
                     
                 },
                 {
-                    "title":"移动端应用-大众点评",
-                    "desc":["1. 开发中。。。","",""],
-                    "tech":[""],
-                    "src":"",
-                    "img":"",
+                    "title":"小书app（react-native）",
+                    "desc":["1. 将《小书博客》项目完美移植于react-native,具有网页版应用的所有功能。",
+                        "2. 实现了跨平台应用开发，1份代码进行复用，可同时运行于IOS平台和Android平台。",
+                        "3. App的热部署，不用提交新的审核实现了应用的更新。",
+                        "可在以下Android平台搜索 小书app 下载安装：",
+                        "百度手机助手、华为应用市场、安卓园、安粉网、安贝市场",
+                        "IOS平台：","暂未上架于AppStore","可用苹果手机在AppStore下载：expo client,并用该软件扫描下方二维码进行体验"],
+                    "tech":["前端：","react-naitve+redux","中间件：redux-thunk","react-navigation：用于页面导航","native-base：提供跨平台组件","Expo：提供调用设备功能的API,将代码打包成apk包、ipa包","后端：","共享《小书博客》后端系统"],
+                    "src":"#",
+                    "img":"./static/img/xiaoshuerweima.png",
                     "imgTitle":""
                 }
             ],

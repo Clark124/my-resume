@@ -4,21 +4,21 @@
       <v-Title :title="title" :tip="tip"></v-Title>
       <ul>
         <li>
-          <router-link to="/project/vue" >Vue</router-link>
+          <router-link to="/project/react">React & React Native</router-link>
+        </li>
+        <li>
+          <router-link to="/project/vue">Vue</router-link>
         </li>
         <li>
           <router-link to="/project/node">Node</router-link>
         </li>
         <li>
-          <router-link to="/project/react">React</router-link>
-        </li>
-        <li>
           <router-link to="/project/bootstrap">Bootstrap</router-link>
         </li>
       </ul>
-      <transition enter-active-class="animated zoomIn" >
-      <router-view :vuePro="project.vue" :nodePro="project.node" :reactPro="project.react" :bootstrapPro="project.bootstrap"></router-view>
-      </transition>  
+      <transition enter-active-class="animated zoomIn">
+        <router-view :vuePro="project.vue" :nodePro="project.node" :reactPro="project.react" :bootstrapPro="project.bootstrap"></router-view>
+      </transition>
     </div>
   </div>
 </template>
@@ -27,15 +27,15 @@
 import Title from '../title/Title'
 export default {
   name: 'Project',
-  props:['project'],
+  props: ['project'],
   data() {
     return {
       title: '我的项目',
-      tip:'WHAT I DO'
+      tip: 'WHAT I DO'
     }
   },
-  components:{
-    'v-Title':Title
+  components: {
+    'v-Title': Title
   }
 }
 </script>
@@ -43,7 +43,7 @@ export default {
 <style scoped lang="scss">
 .v_project {
   background: url('./bg-project.jpg') no-repeat center top;
-  background-size: cover;
+  background-size: 100% 100%;
   background-color: #fff;
 }
 
@@ -69,7 +69,7 @@ export default {
       font-size: 16px;
       a {
         color: #fff;
-        &.active{
+        &.active {
           color: #5cefac;
         }
       }
