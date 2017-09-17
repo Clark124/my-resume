@@ -130,6 +130,7 @@ export default {
             color: #b75a5a;
             font-weight: bold;
           }
+          
 
         }
       }
